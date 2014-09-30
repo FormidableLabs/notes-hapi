@@ -32,6 +32,19 @@ $ node server/init-db.js
 $ gulp dev
 ```
 
+Navigate to: http://127.0.0.1:3000/
+
+And *don't* break the build ;)
+
+We test all changes with [Travis CI][trav]. Here's our current
+[build status][trav_site]:
+
+[![Build Status][trav_img]][trav_site]
+
+[trav]: https://travis-ci.org/
+[trav_img]: https://travis-ci.org/FormidableLabs/notes-hapi.svg
+[trav_site]: https://travis-ci.org/FormidableLabs/notes-hapi
+
 ## Production
 
 ```
