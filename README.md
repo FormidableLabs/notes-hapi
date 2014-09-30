@@ -16,15 +16,25 @@ The relevant pages for this project are:
 and available as source in the directory:
 
 ```
-alt/commonjs/
-  app/                // Application directory.
-    js/               // JS sources (not served in prod)
-    js-dist/          // Production bundle
-  test/
-    jasmine/          // Jasmine test directory
-    mocha/            // Mocha test directory
+app/                // Application directory.
+  js/               // JS sources (not served in prod)
+  js-dist/          // Production bundle
+test/
+  jasmine/          // Jasmine test directory
+  mocha/            // Mocha test directory
 ```
 
-## TODO - Rest of Documentation
+## Development
 
-[webpack]: http://webpack.github.io/
+```
+$ npm install
+$ node server/init-db.js
+$ gulp dev
+```
+
+## Production
+
+```
+$ npm install --production
+$ npm run-script build
+```
